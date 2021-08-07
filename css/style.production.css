@@ -39,7 +39,7 @@ h3 {
 }
 
 a {
-  color: #fff;
+  color: white;
   text-decoration: none;
     
 }
@@ -48,7 +48,7 @@ a {
 
 a:visited {
   /* visited link */
-  color:  #fff;
+  color:  white;
 }
 
 a:hover {
@@ -68,6 +68,11 @@ a:active {
   color:#191970;
     
 }
+
+.contact_links{color: black;}
+.contact_links:visited{color: black;}
+#contact_text{text-align: center;}
+
 
 
 /* Button Styling*/
@@ -164,6 +169,23 @@ button:focus,
           flex-grow: 1;
   text-align: right;
 }
+
+#index-title{width: 80%;
+    
+}
+
+#about_text{width: 70%;
+            margin: 0 auto;
+           padding-bottom: 50px;}
+
+.header-text{text-align: center;}
+
+#about_table{text-align: center;
+             margin: 0 auto;
+             margin-bottom: 50px;}
+
+.main{text-align: center;}
+
 
 /* Footer*/
 
