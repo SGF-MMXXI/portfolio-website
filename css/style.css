@@ -2,7 +2,7 @@
 
 /* Global */
 :root {
-  --dark-blue:  #191970;
+  --dark-blue: #191970;
   --light-blue: #48d1cc;
   --dark-grey: #2b2b2b;
   --white:#fff;   
@@ -10,18 +10,16 @@
   --just-blue: #4682b4;
   --heading_size:30px;
   --heading_weight:700;    
-  --gen_font_size:16px;    
+  --gen_font_size:16px;     
 }
 
-* {
-  box-sizing: border-box;
-}
 
 body {
+   font-family: 'Nunito', sans-serif; 
+   font-size: var(--gen_font_size);
    font-weight: 400;
-  font-size: var(--gen_font_size);
-  line-height: 1.6;
-  font-family: 'Nunito', sans-serif;    
+   line-height: 1.6;
+     
 }
 
 /* Font styling */
