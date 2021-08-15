@@ -356,7 +356,9 @@ button:focus,
   h1 {
     font-size: 22px;
   }
-} 
+}
+
+@media all and (min-width: 320px) and (max-width: 374px) { 
    .navigation-list li {
  margin-left: -1em;
        margin-right:2em;
